@@ -1,0 +1,27 @@
+TCP and UDP:
+
+Both used to send data packets over the internet.
+Both build on top of Internet Protocol.
+
+Transmission way:
+
+YOUR COMPUTER----------> ROUTER------------> DESTINATION
+
+TCP: 
+
+1. Secure--- no data is lost or corrupted during transit. Gaurantess that reciever gets packets in order by numbering them.
+2. Full handshake --data packet sent--Recipient sends messages back it recieved the data packets-- delivers the data to sender
+
+
+UDP:
+
+1. Insecure--- data can be lost-- does not keep a track of data packets sent. No gaurantee that reciever is getting all packets.
+2. No Full handshake -- Sender does not wait for reciever to reply back that it recieved data--sends data without any response from reciever.
+
+That is why it is a bit faster than TCP but it is error prone. Ex: live broadcast, online games. 
+
+
+
+
+
+SMTP:
